@@ -1,6 +1,6 @@
 .bd-header {
     background-color: var(--pst-color-background) !important;
-    background-color: color-mix(in srgb, var(--pst-color-on-background) 60%, transparent) !important;
+    background-color: color-mix(in srgb, var(--pst-color-on-background) 75%, transparent) !important;
     backdrop-filter: blur(20px) saturate(150%);
     -webkit-backdrop-filter: blur(20px) saturate(150%);
     background-clip: padding-box;
