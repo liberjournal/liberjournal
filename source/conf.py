@@ -28,6 +28,10 @@ html_static_path = ['_static']
 html_title = 'Liber Journal'
 html_favicon = '_static/favicon.svg'
 
+html_css_files = [
+    'theme-overrides.css',
+]
+
 html_theme_options = {
   "footer_start": ["copyright"],
   "footer_center": ["sphinx-version"],
