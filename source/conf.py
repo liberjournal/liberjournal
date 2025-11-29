@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Liber Journal'
-copyright = '2025, Liber Journal'
+copyright = '2025, Liber Journal. Text is available under the CC BY-SA 4.0'
 author = 'Liber Journal'
 
 # -- General configuration ---------------------------------------------------
@@ -25,3 +25,10 @@ exclude_patterns = []
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+html_title = 'Liber Journal'
+
+html_theme_options = {
+  "footer_start": ["copyright"],
+  "footer_center": ["sphinx-version"],
+  "footer_end": ["theme-version"],
+}
