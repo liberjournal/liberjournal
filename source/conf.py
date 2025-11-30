@@ -33,6 +33,14 @@ html_css_files = [
 ]
 
 html_theme_options = {
+  "icon_links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/liberjournal",
+      "icon": "fa-brands fa-github",
+      "type": "fontawesome",
+    },
+  ],
   "footer_start": ["copyright"],
   "footer_center": ["sphinx-version"],
   "footer_end": ["theme-version"],
