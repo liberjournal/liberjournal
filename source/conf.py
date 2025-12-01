@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Liber Journal'
-copyright = '2025, Liber Journal. Text is available under the CC BY-SA 4.0'
+copyright = '2025, Liber Journal. Text is available under the CC BY-SA 4.0, unless otherwise stated'
 author = 'Liber Journal'
 
 # -- General configuration ---------------------------------------------------
